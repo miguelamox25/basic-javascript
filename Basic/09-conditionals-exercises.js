@@ -48,9 +48,9 @@ console.log(edad >= 18 ? 'Adulto' : 'Menor')
 
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
-let mes = 13
+let mes = 5
 if (mes >= 3 && mes <= 5){
-    console.log('SRING')
+    console.log('SPRING')
 }else if(mes >=6 && mes <= 8){
     console.log('SUMMER')
 }else if(mes >= 9 && mes <= 11){
@@ -64,9 +64,104 @@ if (mes >= 3 && mes <= 5){
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
 
 // switch
+switch (mes){
+    case 1:
+        console.log('31 días')
+        break;
+    case 2:
+        console.log('28 dias')
+        break;
+    case 3:
+        console.log('31 dias')
+        break;
+    case 4:
+        console.log('30 dias')
+        break;
+    case 5:
+        console.log('31 dias')
+        break;
+    case 6:
+        console.log('30 dias')
+        break;
+    case 7:
+        console.log('31 dias')
+        break;
+    case 8:
+        console.log('31 dias')
+        break;
+    case 9:
+        console.log('30 dias')
+        break;
+    case 10:
+        console.log('31 dias')
+        break;
+    case 11:
+        console.log('30 dias')
+        break;
+    case 12:
+        console.log('31 dias')
+        break;
+    default:
+        console.log('Error')
+}
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
+let idioma = 4
+switch(idioma){
+    case 1:
+        console.log('BUENOS DÍAS') 
+    break;
+    case 2:
+        console.log('GOOD MORNING') 
+    break;
+    case 3:
+        console.log('GUTEN TAG') 
+    break;
+    case 4:
+        console.log('BON YIA') 
+    break;
+}
 
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
+switch (mes){
+    case 1:
+        console.log('WINTER')
+        break;
+    case 2:
+        console.log('WINTER')
+        break;
+    case 3:
+        console.log('SPRING')
+        break;
+    case 4:
+        console.log('SPRING')
+        break;
+    case 5:
+        console.log('SPRING')
+        break;
+    case 6:
+        console.log('SUMMER')
+        break;
+    case 7:
+        console.log('SUMMER')
+        break;
+    case 8:
+        console.log('SUMMER')
+        break;
+    case 9:
+        console.log('AUTUMN')
+        break;
+    case 10:
+        console.log('AUTUMN')
+        break;
+    case 11:
+        console.log('AUTUMN')
+        break;
+    case 12:
+        console.log('WINTER')
+        break;
+    default:
+        console.log('Error')
+}
 
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
