@@ -9,6 +9,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=8741
 let myArray = [] // Declaración mediante sintaxis literal (Recomendada: es más directa y evita errores).
 let myArray2 = new Array() // Declaración mediante el constructor integrado del lenguaje.
 
+
 console.log(myArray)
 console.log(myArray2)
 
